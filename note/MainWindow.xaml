@@ -16,7 +16,7 @@
         <!--內容-->
         <Rectangle Grid.Column="1" Fill="Gray"></Rectangle>
         <StackPanel Grid.Column="1">
-            <Button Margin="25 30 25 1" Background="DarkGray" x:Name="OpenBtn" Click="OpenBtn_Click">Open</Button>
+            <Button Margin="25 30 25 1" Background="Transparent" BorderBrush="Transparent" x:Name="OpenBtn" Click="OpenBtn_Click">Open</Button>
             <Button Margin="25 30 25 1" Background="DarkGray" x:Name="SaveBtn" Click="SaveBtn_Click">Save</Button>
         </StackPanel>
         
