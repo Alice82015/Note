@@ -5,22 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:note"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="750">
     <Grid>
         <!--定義格子-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="545"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        
-        <!--內容-->
-        <Rectangle Grid.Column="1" Fill="Gray"></Rectangle>
-        <StackPanel Grid.Column="1">
-            <Button Margin="25 30 25 1" Background="Transparent" BorderBrush="Transparent" x:Name="OpenBtn" Click="OpenBtn_Click">Open</Button>
-            <Button Margin="25 30 25 1" Background="DarkGray" x:Name="SaveBtn" Click="SaveBtn_Click">Save</Button>
-        </StackPanel>
-        
-        <!--左邊打字區-->
-        <TextBox AcceptsReturn="True" TextWrapping="Wrap" x:Name="Textarea"></TextBox>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="1">
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" BorderThickness="0" Padding="15" x:Name="TextArea"></TextBox>
+        </ScrollViewer>
+
+        <Grid Grid.Column="0" Background="Black">
+            <StackPanel Margin="10">
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,50,110,5" x:Name="NewBtn" Click="NewBtn_Click" Foreground="DarkGray">New</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,105,5" x:Name="OpenBtn" Click="OpenBtn_Click" Foreground="DarkGray">Open</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,110,5" x:Name="SaveBtn" Click="SaveBtn_Click" Foreground="DarkGray" >Save</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,90,5" x:Name="SaveusBtn" Click="SaveBtn_Click" Foreground="DarkGray">Save us</Button>
+            </StackPanel>
+
+            <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="43,250,142,200" x:Name="A1Btn" Click="A1Btn_Click" Foreground="DarkGray">A</Button>
+            <Button BorderBrush="Transparent" Background="Transparent" FontSize="25" Margin="80,241,96,200" x:Name="A2Btn" Click="A2Btn_Click" Foreground="DarkGray">A</Button>
+            <Button BorderBrush="Transparent" Background="Transparent" FontSize="35" Margin="122,231,48,200" x:Name="A3Btn" Click="A3Btn_Click" Foreground="DarkGray">A</Button>
+
+        </Grid>
     </Grid>
 </Window>

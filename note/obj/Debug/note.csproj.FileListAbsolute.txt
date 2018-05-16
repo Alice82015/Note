@@ -12,3 +12,17 @@ C:\git\note\note\obj\Debug\note.Properties.Resources.resources
 C:\git\note\note\obj\Debug\note.csproj.GenerateResource.Cache
 C:\git\note\note\obj\Debug\note.exe
 C:\git\note\note\obj\Debug\note.pdb
+D:\Sourcetree\git\Note\note\bin\Debug\note.exe.config
+D:\Sourcetree\git\Note\note\obj\Debug\note.exe
+D:\Sourcetree\git\Note\note\obj\Debug\note.pdb
+D:\Sourcetree\git\Note\note\bin\Debug\note.exe
+D:\Sourcetree\git\Note\note\bin\Debug\note.pdb
+D:\Sourcetree\git\Note\note\obj\Debug\note.csprojResolveAssemblyReference.cache
+D:\Sourcetree\git\Note\note\obj\Debug\MainWindow.g.cs
+D:\Sourcetree\git\Note\note\obj\Debug\App.g.cs
+D:\Sourcetree\git\Note\note\obj\Debug\note_MarkupCompile.cache
+D:\Sourcetree\git\Note\note\obj\Debug\note_MarkupCompile.lref
+D:\Sourcetree\git\Note\note\obj\Debug\MainWindow.baml
+D:\Sourcetree\git\Note\note\obj\Debug\note.g.resources
+D:\Sourcetree\git\Note\note\obj\Debug\note.Properties.Resources.resources
+D:\Sourcetree\git\Note\note\obj\Debug\note.csproj.GenerateResource.Cache
