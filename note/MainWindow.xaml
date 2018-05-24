@@ -25,9 +25,34 @@
                 <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,90,5" x:Name="SaveusBtn" Click="SaveBtn_Click" Foreground="DarkGray">Save us</Button>
             </StackPanel>
 
-            <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="43,250,142,200" x:Name="A1Btn" Click="A1Btn_Click" Foreground="DarkGray">A</Button>
-            <Button BorderBrush="Transparent" Background="Transparent" FontSize="25" Margin="80,241,96,200" x:Name="A2Btn" Click="A2Btn_Click" Foreground="DarkGray">A</Button>
-            <Button BorderBrush="Transparent" Background="Transparent" FontSize="35" Margin="122,231,48,200" x:Name="A3Btn" Click="A3Btn_Click" Foreground="DarkGray">A</Button>
+            <StackPanel Orientation="Horizontal" >
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="42 15 15 0" x:Name="A1Btn" Click="A1Btn_Click" Foreground="DarkGray">A</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="25" Margin="0 8 15 0" x:Name="A2Btn" Click="A2Btn_Click" Foreground="DarkGray">A</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="35" Margin="0 0 5 0" x:Name="A3Btn" Click="A3Btn_Click" Foreground="DarkGray">A</Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Button  Width="30" Height="30" Margin="40 150 0 0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Ellipse Fill="DarkGray"/>
+                                <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button  Width="30" Height="30" Margin="20 150 0 0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Ellipse Fill="DarkGray"/>
+                                <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
 
         </Grid>
     </Grid>

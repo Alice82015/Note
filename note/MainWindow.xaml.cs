@@ -56,6 +56,20 @@ namespace note
                 Textarea.Text = System.IO.File.ReadAllText(dig.FileName);
             }
         }
+
+        private void A1Btn_Click(object sender, RoutedEventArgs e)
+        {
+            fsize = A1Btn.FontSize;
+            if (fsize == 16.0)
+            {
+                A1Btn.FontSize = 10.0;
+                A1Btn.Content = "FontSize";
+            }
+            else
+            {
+                A1Btn.FontSize = 16.0;
+                A1Btn.Content = "Control font size changes from 10 to 16.";
+            }
     }
 }
 
