@@ -37,7 +37,7 @@ namespace note
             if (result == true)
             {
                 // 寫入檔案
-                System.IO.File.WriteAllText(dig.FileName, Textarea.Text);
+                System.IO.File.WriteAllText(dig.FileName, TextArea.Text);
             }
         }
 
@@ -53,23 +53,12 @@ namespace note
             if (result == true)
             {
                 // 寫入檔案
-                Textarea.Text = System.IO.File.ReadAllText(dig.FileName);
+                TextArea.Text = System.IO.File.ReadAllText(dig.FileName);
             }
         }
-
-        private void A1Btn_Click(object sender, RoutedEventArgs e)
-        {
-            fsize = A1Btn.FontSize;
-            if (fsize == 16.0)
-            {
-                A1Btn.FontSize = 10.0;
-                A1Btn.Content = "FontSize";
-            }
-            else
-            {
-                A1Btn.FontSize = 16.0;
-                A1Btn.Content = "Control font size changes from 10 to 16.";
-            }
     }
 }
+
+        
+
 

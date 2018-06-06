@@ -19,16 +19,16 @@
 
         <Grid Grid.Column="0" Background="Black">
             <StackPanel Margin="10">
-                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,50,110,5" x:Name="NewBtn" Click="NewBtn_Click" Foreground="DarkGray">New</Button>
-                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,105,5" x:Name="OpenBtn" Click="OpenBtn_Click" Foreground="DarkGray">Open</Button>
-                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,110,5" x:Name="SaveBtn" Click="SaveBtn_Click" Foreground="DarkGray" >Save</Button>
-                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,90,5" x:Name="SaveusBtn" Click="SaveBtn_Click" Foreground="DarkGray">Save us</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,50,100,5" Foreground="DarkGray">New</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,95,5" x:Name="OpenBtn" Click="OpenBtn_Click" Foreground="DarkGray">Open</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,100,5" x:Name="SaveBtn" Click="SaveBtn_Click" Foreground="DarkGray" >Save</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="30,10,80,5" Foreground="DarkGray">Save us</Button>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" >
-                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="42 15 15 0" x:Name="A1Btn" Click="A1Btn_Click" Foreground="DarkGray">A</Button>
-                <Button BorderBrush="Transparent" Background="Transparent" FontSize="25" Margin="0 8 15 0" x:Name="A2Btn" Click="A2Btn_Click" Foreground="DarkGray">A</Button>
-                <Button BorderBrush="Transparent" Background="Transparent" FontSize="35" Margin="0 0 5 0" x:Name="A3Btn" Click="A3Btn_Click" Foreground="DarkGray">A</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="15" Margin="42 230 15 210" Foreground="DarkGray">A</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="25" Margin="0 220 15 210" Foreground="DarkGray">A</Button>
+                <Button BorderBrush="Transparent" Background="Transparent" FontSize="35" Margin="0 210 15 210" Foreground="DarkGray">A</Button>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
